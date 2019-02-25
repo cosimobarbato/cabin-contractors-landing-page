@@ -1,0 +1,202 @@
+body{
+  font-family: poppins, sans-serif;
+  font-size: 1em;
+  position: relative;
+}
+
+h1{
+  font-family: merriweather, serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.6em;
+  line-height: 1.5em;
+}
+
+header{
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+  background-color: #1d4b2d;
+  font-family: merriweather, serif;
+  font-size: 1em;
+}
+
+nav a{
+  color: white;
+}
+
+nav a:hover{
+  color: #bdbd;
+}
+
+.logo{
+  width: 200px;
+}
+
+.nav-item{
+  padding-left: 50px;
+}
+
+#about{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.slider-title{
+  background-color: white;
+}
+
+.slides{
+  position: relative;
+  z-index: 1;
+}
+
+.gray-background {
+  background-color: #fafafa;
+}
+
+.green-bg{
+  background-color: #85c15d;
+  height: 40vh;
+  position: relative;
+  top: -150px;
+}
+
+#services{
+  background-image: url("../img/services-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#vision{
+  color: #fff;
+}
+
+.bg-dark-green{
+  background-color: #194d2d;
+}
+
+.bg-yellow{
+  background-color: #f69224;
+}
+
+#contact{
+  background-image: url("../img/footer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  font-size: 1.25em;
+}
+
+.btn-orange{
+  color: #fff;
+  background-color: #f69224;
+}
+
+.btn-orange:hover{
+  color: #f69224;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid #f69224;
+}
+
+.btn-green{
+  background-color: #194d2d;
+  color: #fff;
+}
+
+.btn-green:hover{
+  color: #194d2d;
+  background-color: #fff;
+  border: 1px solid #194d2d;
+}
+
+.btn-white{
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-white:hover{
+  color: #fff;
+  background-color: #f69224;
+  border: 1px solid #fff;
+}
+
+.green-text{
+  color: #194d2d;
+}
+
+.orange-field{
+  background-color: #f69224;
+  border: 1px solid #fff;
+}
+
+.orange-field{
+  background-color: #f69224;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.orange-field::placeholder{
+  color: #fff;
+}
+
+
+/* Mobile */
+@media (max-width: 576px) {
+
+  body{
+    font-size: .7em;
+  }
+
+  h1{
+    font-size: 1em;
+  }
+
+  .green-bg{
+    height: 20vh;
+    top: -100px;
+  }
+
+  header{
+    background-image: none;
+    background-color: #28a745;
+  }
+
+  nav{
+    position: absolute !important;
+    top: 0;
+  }
+
+  nav ul{
+    background-color: #85c15d;
+  }
+
+  nav li{
+    border-bottom: 1px solid #28a745;
+  }
+
+  footer{
+    position: relative;
+    top: 200px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+}
