@@ -1,12 +1,14 @@
 body{
   font-family: poppins, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1em;
   position: relative;
 }
 
 h1{
   font-family: merriweather, serif;
-  font-weight: 100;
+  font-weight: 200;
   font-style: normal;
   font-size: 1.6em;
   line-height: 1.5em;
@@ -84,12 +86,28 @@ nav a:hover{
   background-color: #f69224;
 }
 
+.no-link-style{
+  text-decoration: none;
+  color: black;
+}
+
+.no-link-style:hover{
+  text-decoration: none;
+  color: #194d2d;
+  border-bottom: none;
+}
+
 #contact{
   background-image: url("../img/footer.jpg");
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   font-size: 1.25em;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
 }
 
 .btn-orange{
@@ -129,19 +147,8 @@ nav a:hover{
   color: #194d2d;
 }
 
-.orange-field{
-  background-color: #f69224;
-  border: 1px solid #fff;
-}
-
-.orange-field{
-  background-color: #f69224;
-  border: 1px solid #fff;
-  color: #fff;
-}
-
-.orange-field::placeholder{
-  color: #fff;
+.gray-text{
+  color: #495057;
 }
 
 
@@ -183,6 +190,8 @@ nav a:hover{
     position: relative;
     top: 200px;
   }
+
+  
 
 }
 
